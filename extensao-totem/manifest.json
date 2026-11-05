@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Totem Seteg – Botão Início",
+  "version": "1.0.0",
+  "description": "Mostra o botão fixo \"⟵ Início\" nos aplicativos abertos pelo Totem Seteg.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["botao-inicio.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

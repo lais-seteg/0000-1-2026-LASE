@@ -1,0 +1,26 @@
+TOTEM SETEG – EXTENSÃO "BOTÃO INÍCIO"
+=====================================
+
+O que faz
+---------
+Mostra o botão "⟵ Início" fixo no canto inferior esquerdo de qualquer site
+aberto pelo totem (Gaia, Aura...). Um toque volta para a tela inicial.
+Não altera nenhum site.
+
+Instalação (uma vez, no navegador do totem)
+-------------------------------------------
+1. Copie esta pasta "extensao-totem" para o computador do totem.
+2. Abra o navegador:
+     Edge:   digite  edge://extensions
+     Chrome: digite  chrome://extensions
+3. Ligue o "Modo do desenvolvedor" (chave no canto da página).
+4. Clique em "Carregar sem compactação" e escolha a pasta "extensao-totem".
+5. Abra a tela inicial do totem uma vez. A extensão memoriza o endereço dele
+   (local ou Vercel) e passa a usar como destino do botão "Início".
+
+Observações
+-----------
+- O botão aparece em todos os sites, menos na própria tela do totem.
+  Por isso, use a extensão só no navegador dedicado ao totem.
+- Não apague a pasta depois de instalar: o navegador carrega a extensão dela.
+- Se mudar o código, clique em "Recarregar" na página de extensões.
